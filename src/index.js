@@ -1,14 +1,33 @@
-export { default as GoogleMapLoader } from "./GoogleMapLoader";
+export { default as withScriptjs } from "./withScriptjs"
 
-export { default as GoogleMap } from "./GoogleMap";
-export { default as Circle } from "./Circle";
-export { default as DirectionsRenderer } from "./DirectionsRenderer";
-export { default as DrawingManager } from "./DrawingManager";
-export { default as InfoWindow } from "./InfoWindow";
-export { default as KmlLayer } from "./KmlLayer";
-export { default as Marker } from "./Marker";
-export { default as OverlayView } from "./OverlayView";
-export { default as Polygon } from "./Polygon";
-export { default as Polyline } from "./Polyline";
-export { default as Rectangle } from "./Rectangle";
-export { default as SearchBox } from "./SearchBox";
+export { default as withGoogleMap } from "./withGoogleMap"
+
+export { default as GoogleMap } from "./components/GoogleMap"
+
+export { default as Circle } from "./components/Circle"
+
+export { default as Marker } from "./components/Marker"
+
+export { default as Polyline } from "./components/Polyline"
+
+export { default as Polygon } from "./components/Polygon"
+
+export { default as Rectangle } from "./components/Rectangle"
+
+export { default as InfoWindow } from "./components/InfoWindow"
+
+export { default as OverlayView } from "./components/OverlayView"
+
+export { default as GroundOverlay } from "./components/GroundOverlay"
+
+export { default as DirectionsRenderer } from "./components/DirectionsRenderer"
+
+export { default as FusionTablesLayer } from "./components/FusionTablesLayer"
+
+export { default as KmlLayer } from "./components/KmlLayer"
+
+export { default as TrafficLayer } from "./components/TrafficLayer"
+
+export { default as StreetViewPanorama } from "./components/StreetViewPanorama"
+
+export { default as BicyclingLayer } from "./components/BicyclingLayer"

@@ -1,37 +1,49 @@
-import {
-  default as expect,
-} from "expect";
+describe("react-google-maps module (index.js)", () => {
+  const {
+    __esModule,
+    default: DefaultExport,
+    withScriptjs,
+    withGoogleMap,
+    GoogleMap,
+    Circle,
+    Marker,
+    Polyline,
+    Polygon,
+    Rectangle,
+    InfoWindow,
+    OverlayView,
+    DirectionsRenderer,
+    FusionTablesLayer,
+    KmlLayer,
+    TrafficLayer,
+    BicyclingLayer,
+    StreetViewPanorama,
+  } = require("../")
 
-import {
-  GoogleMapLoader,
-  GoogleMap,
+  it("should be an ES module", () => {
+    expect(__esModule).toBe(true)
+  })
 
-  Circle,
-  DirectionsRenderer,
-  DrawingManager,
-  InfoWindow,
-  Marker,
-  OverlayView,
-  Polygon,
-  Polyline,
-  Rectangle,
-  SearchBox,
-} from "../index";
+  it("should have no default exported", () => {
+    expect(DefaultExport).toBeUndefined()
+  })
 
-describe(`index`, () => {
-  it(`should be exported`, () => {
-    expect(GoogleMapLoader).toExist();
-    expect(GoogleMap).toExist();
-
-    expect(Circle).toExist();
-    expect(DirectionsRenderer).toExist();
-    expect(DrawingManager).toExist();
-    expect(InfoWindow).toExist();
-    expect(Marker).toExist();
-    expect(OverlayView).toExist();
-    expect(Polygon).toExist();
-    expect(Polyline).toExist();
-    expect(Rectangle).toExist();
-    expect(SearchBox).toExist();
-  });
-});
+  it("should have name exports for basic components", () => {
+    expect(withScriptjs).toBeDefined()
+    expect(withGoogleMap).toBeDefined()
+    expect(GoogleMap).toBeDefined()
+    expect(Circle).toBeDefined()
+    expect(Marker).toBeDefined()
+    expect(Polyline).toBeDefined()
+    expect(Polygon).toBeDefined()
+    expect(Rectangle).toBeDefined()
+    expect(InfoWindow).toBeDefined()
+    expect(OverlayView).toBeDefined()
+    expect(DirectionsRenderer).toBeDefined()
+    expect(FusionTablesLayer).toBeDefined()
+    expect(KmlLayer).toBeDefined()
+    expect(TrafficLayer).toBeDefined()
+    expect(BicyclingLayer).toBeDefined()
+    expect(StreetViewPanorama).toBeDefined()
+  })
+})

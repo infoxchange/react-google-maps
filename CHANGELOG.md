@@ -1,3 +1,1166 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+<a name="9.4.5"></a>
+## [9.4.5](https://github.com/tomchentw/react-google-maps/compare/v9.4.4...v9.4.5) (2018-01-05)
+
+
+### Bug Fixes
+
+* **types:** fix OverlayView type definition ([6955d01](https://github.com/tomchentw/react-google-maps/commit/6955d01))
+
+
+
+<a name="9.4.4"></a>
+## [9.4.4](https://github.com/tomchentw/react-google-maps/compare/v9.4.3...v9.4.4) (2018-01-04)
+
+
+
+<a name="9.4.3"></a>
+## [9.4.3](https://github.com/tomchentw/react-google-maps/compare/v9.4.2...v9.4.3) (2017-12-14)
+
+
+### Bug Fixes
+
+* **places/SearchBox:** undefined child at unmount ([0c8e943](https://github.com/tomchentw/react-google-maps/commit/0c8e943))
+
+
+
+<a name="9.4.2"></a>
+## [9.4.2](https://github.com/tomchentw/react-google-maps/compare/v9.4.1...v9.4.2) (2017-12-06)
+
+
+### Bug Fixes
+
+* **package.json:** move eslint to devDependencies ([#715](https://github.com/tomchentw/react-google-maps/issues/715)) ([bab1481](https://github.com/tomchentw/react-google-maps/commit/bab1481))
+
+
+
+<a name="9.4.1"></a>
+## [9.4.1](https://github.com/tomchentw/react-google-maps/compare/v9.4.0...v9.4.1) (2017-11-26)
+
+
+### Bug Fixes
+
+* **addons/InfoBox:** named require from `google-maps-infobox` module ([6fc7841](https://github.com/tomchentw/react-google-maps/commit/6fc7841)), closes [#711](https://github.com/tomchentw/react-google-maps/issues/711)
+
+
+
+<a name="9.4.0"></a>
+# [9.4.0](https://github.com/tomchentw/react-google-maps/compare/v9.3.0...v9.4.0) (2017-11-25)
+
+
+### Bug Fixes
+
+* **types/index.d.ts:** draggable property type ([#710](https://github.com/tomchentw/react-google-maps/issues/710)) ([7a29420](https://github.com/tomchentw/react-google-maps/commit/7a29420))
+
+
+### Features
+
+* **StandaloneSearchBox:** accept wrapped input ([#709](https://github.com/tomchentw/react-google-maps/issues/709)) ([55a2f55](https://github.com/tomchentw/react-google-maps/commit/55a2f55))
+
+
+
+<a name="9.3.0"></a>
+# [9.3.0](https://github.com/tomchentw/react-google-maps/compare/v9.2.3...v9.3.0) (2017-11-24)
+
+
+### Bug Fixes
+
+* **package.json:** files including `src/` ([9b18f8d](https://github.com/tomchentw/react-google-maps/commit/9b18f8d))
+
+
+### Features
+
+* **package.json:** add TypeScript definitions. ([#646](https://github.com/tomchentw/react-google-maps/issues/646)) ([072b4c7](https://github.com/tomchentw/react-google-maps/commit/072b4c7)), closes [#363](https://github.com/tomchentw/react-google-maps/issues/363)
+
+
+
+<a name="9.2.3"></a>
+## [9.2.3](https://github.com/tomchentw/react-google-maps/compare/v9.2.2...v9.2.3) (2017-11-24)
+
+
+### Bug Fixes
+
+* **addons/MarkerClusterer:** add missed cluster class binding ([#706](https://github.com/tomchentw/react-google-maps/issues/706)) ([f008c2c](https://github.com/tomchentw/react-google-maps/commit/f008c2c))
+* **InfoWindow:** do not remove container element on mount ([ed764c6](https://github.com/tomchentw/react-google-maps/commit/ed764c6)), closes [#696](https://github.com/tomchentw/react-google-maps/issues/696)
+
+
+
+<a name="9.2.2"></a>
+## [9.2.2](https://github.com/tomchentw/react-google-maps/compare/v9.2.1...v9.2.2) (2017-11-03)
+
+
+### Bug Fixes
+
+* **InfoWindow:** use `ReactDOM.createPortal` in React@^16 ([6a61f2c](https://github.com/tomchentw/react-google-maps/commit/6a61f2c)), closes [#691](https://github.com/tomchentw/react-google-maps/issues/691)
+
+
+
+<a name="9.2.1"></a>
+## [9.2.1](https://github.com/tomchentw/react-google-maps/compare/v9.2.0...v9.2.1) (2017-10-27)
+
+
+### Bug Fixes
+
+* **addons/InfoBox:** don't open again on update ([72cb16f](https://github.com/tomchentw/react-google-maps/commit/72cb16f)), closes [#682](https://github.com/tomchentw/react-google-maps/issues/682)
+* **InfoWindow:** don't open again on update ([98a9c1f](https://github.com/tomchentw/react-google-maps/commit/98a9c1f)), closes [#670](https://github.com/tomchentw/react-google-maps/issues/670)
+
+
+
+<a name="9.2.0"></a>
+# [9.2.0](https://github.com/tomchentw/react-google-maps/compare/v9.1.0...v9.2.0) (2017-10-26)
+
+
+### Features
+
+* **places/SearchBox:** allow other elements around SearchBox input ([238a352](https://github.com/tomchentw/react-google-maps/commit/238a352))
+
+
+
+<a name="9.1.0"></a>
+# [9.1.0](https://github.com/tomchentw/react-google-maps/compare/v9.0.3...v9.1.0) (2017-10-26)
+
+
+### Features
+
+* **package.json:** support `react@^16.0.0` ([963716d](https://github.com/tomchentw/react-google-maps/commit/963716d)), closes [#677](https://github.com/tomchentw/react-google-maps/issues/677) [#640](https://github.com/tomchentw/react-google-maps/issues/640)
+* **package.json:** upgrade to `recompose@^0.26.0` ([ebb9be8](https://github.com/tomchentw/react-google-maps/commit/ebb9be8))
+* **places/SearchBox:** support `react@^16.0.0` ([94931ae](https://github.com/tomchentw/react-google-maps/commit/94931ae)), closes [#640](https://github.com/tomchentw/react-google-maps/issues/640) [#656](https://github.com/tomchentw/react-google-maps/issues/656)
+
+
+
+<a name="9.0.3"></a>
+## [9.0.3](https://github.com/tomchentw/react-google-maps/compare/v9.0.2...v9.0.3) (2017-10-26)
+
+
+### Bug Fixes
+
+* **MarkerClusterer:** correct native doc link ([f36efa6](https://github.com/tomchentw/react-google-maps/commit/f36efa6))
+
+
+
+<a name="9.0.2"></a>
+## [9.0.2](https://github.com/tomchentw/react-google-maps/compare/v9.0.1...v9.0.2) (2017-10-23)
+
+
+
+<a name="9.0.1"></a>
+## [9.0.1](https://github.com/tomchentw/react-google-maps/compare/v9.0.0...v9.0.1) (2017-10-17)
+
+
+### Bug Fixes
+
+* **GroundOveray:** use `defaultUrl` and `defaultBounds` instead ([349b620](https://github.com/tomchentw/react-google-maps/commit/349b620))
+
+
+
+<a name="9.0.0"></a>
+# [9.0.0](https://github.com/tomchentw/react-google-maps/compare/v8.5.0...v9.0.0) (2017-10-16)
+
+
+### Bug Fixes
+
+* **Marker:** remove buggy `MarkerWithLabel` support ([b3985f4](https://github.com/tomchentw/react-google-maps/commit/b3985f4))
+
+
+### Features
+
+* **addons/MarkerWithLabel:** separate from `Marker` ([3f7670f](https://github.com/tomchentw/react-google-maps/commit/3f7670f)), closes [#595](https://github.com/tomchentw/react-google-maps/issues/595) [#604](https://github.com/tomchentw/react-google-maps/issues/604)
+* **package.json:** add `markerwithlabel` to dependencies ([b4fe224](https://github.com/tomchentw/react-google-maps/commit/b4fe224))
+
+
+### BREAKING CHANGES
+
+* **Marker:** MarkerWithLabel comes with its own React Component now
+
+Before:
+
+```js
+import { Marker } from "react-google-maps";
+
+<Marker
+  position={{ lat: -34.397, lng: 150.644 }}
+  labelAnchor={new google.maps.Point(0, 0)}
+  labelContent="<div>Hello There!</div>"
+  labelStyle={{/* WON'T WORK */}}
+/>
+```
+
+After:
+
+```js
+import MarkerWithLabel from "react-google-maps/lib/components/addons/MarkerWithLabel";
+
+<MarkerWithLabel
+  position={{ lat: -34.397, lng: 150.644 }}
+  labelAnchor={new google.maps.Point(0, 0)}
+  labelStyle={{backgroundColor: "yellow", fontSize: "32px", padding: "16px"}}
+>
+  <div>Hello There!</div>
+</MarkerWithLabel>
+```
+
+
+
+<a name="8.5.0"></a>
+# [8.5.0](https://github.com/tomchentw/react-google-maps/compare/v8.4.2...v8.5.0) (2017-10-12)
+
+
+### Features
+
+* **GoogleMap:** Add defaultExtraMapTypes ([6ee4734](https://github.com/tomchentw/react-google-maps/commit/6ee4734))
+
+
+
+<a name="8.4.2"></a>
+## [8.4.2](https://github.com/tomchentw/react-google-maps/compare/v8.4.1...v8.4.2) (2017-10-11)
+
+
+### Bug Fixes
+
+* **withGoogleMap:** make compatible with `recompose@^0.26` ([450e1a8](https://github.com/tomchentw/react-google-maps/commit/450e1a8)), closes [#659](https://github.com/tomchentw/react-google-maps/issues/659)
+* **withScriptjs:** make compatible with `recompose@^0.26` ([20f91af](https://github.com/tomchentw/react-google-maps/commit/20f91af)), closes [#659](https://github.com/tomchentw/react-google-maps/issues/659)
+
+
+
+<a name="8.4.1"></a>
+## [8.4.1](https://github.com/tomchentw/react-google-maps/compare/v8.4.0...v8.4.1) (2017-10-11)
+
+
+### Bug Fixes
+
+* **OverlayView:** typo of `FLOAT_PANE` ([0eac8c8](https://github.com/tomchentw/react-google-maps/commit/0eac8c8)), closes [#658](https://github.com/tomchentw/react-google-maps/issues/658)
+
+
+
+<a name="8.4.0"></a>
+# [8.4.0](https://github.com/tomchentw/react-google-maps/compare/v8.3.5...v8.4.0) (2017-10-10)
+
+
+### Features
+
+* **BicyclingLayer:** Add new component for _Google Maps BicyclingLayer_ ([26ce879](https://github.com/tomchentw/react-google-maps/commit/26ce879))
+
+
+
+<a name="8.3.5"></a>
+## [8.3.5](https://github.com/tomchentw/react-google-maps/compare/v8.3.4...v8.3.5) (2017-10-06)
+
+
+
+<a name="8.3.4"></a>
+## [8.3.4](https://github.com/tomchentw/react-google-maps/compare/v8.3.3...v8.3.4) (2017-10-03)
+
+
+
+<a name="8.3.3"></a>
+## [8.3.3](https://github.com/tomchentw/react-google-maps/compare/v8.3.2...v8.3.3) (2017-10-02)
+
+
+
+<a name="8.3.2"></a>
+## [8.3.2](https://github.com/tomchentw/react-google-maps/compare/v8.3.1...v8.3.2) (2017-09-30)
+
+
+### Bug Fixes
+
+* **package.json:** include src/ in files ([afdfa6d](https://github.com/tomchentw/react-google-maps/commit/afdfa6d))
+
+
+
+<a name="8.3.1"></a>
+## [8.3.1](https://github.com/tomchentw/react-google-maps/compare/v8.3.0...v8.3.1) (2017-09-29)
+
+
+
+<a name="8.3.0"></a>
+# [8.3.0](https://github.com/tomchentw/react-google-maps/compare/v8.2.0...v8.3.0) (2017-09-21)
+
+
+### Features
+
+* **GroundOverlay:** add GroundOverlay component ([d76a455](https://github.com/tomchentw/react-google-maps/commit/d76a455))
+
+
+
+<a name="8.2.0"></a>
+# [8.2.0](https://github.com/tomchentw/react-google-maps/compare/v8.1.0...v8.2.0) (2017-09-16)
+
+
+### Bug Fixes
+
+* **addons/InfoBox:** use setState in lifecycle ([fb6658e](https://github.com/tomchentw/react-google-maps/commit/fb6658e))
+* **places/SearchBox:** use setState in lifecycle ([671089b](https://github.com/tomchentw/react-google-maps/commit/671089b))
+
+
+### Features
+
+* **places/StandaloneSearchBox:** add component ([51a1da5](https://github.com/tomchentw/react-google-maps/commit/51a1da5)), closes [#618](https://github.com/tomchentw/react-google-maps/issues/618) [#601](https://github.com/tomchentw/react-google-maps/issues/601) [#593](https://github.com/tomchentw/react-google-maps/issues/593)
+
+
+
+<a name="8.1.0"></a>
+# [8.1.0](https://github.com/tomchentw/react-google-maps/compare/v8.0.0...v8.1.0) (2017-09-15)
+
+
+### Bug Fixes
+
+* **addons/InfoBox:** add default export ([f40b496](https://github.com/tomchentw/react-google-maps/commit/f40b496)), closes [#610](https://github.com/tomchentw/react-google-maps/issues/610) [#611](https://github.com/tomchentw/react-google-maps/issues/611)
+* **addons/MarkerClusterer:** add default export ([87bc259](https://github.com/tomchentw/react-google-maps/commit/87bc259)), closes [#610](https://github.com/tomchentw/react-google-maps/issues/610) [#611](https://github.com/tomchentw/react-google-maps/issues/611)
+
+
+### Features
+
+* **withGoogleMap:** add named export ([8e7e5de](https://github.com/tomchentw/react-google-maps/commit/8e7e5de))
+* **withScriptjs:** add named export ([134f90c](https://github.com/tomchentw/react-google-maps/commit/134f90c))
+
+
+
+<a name="8.0.0"></a>
+# [8.0.0](https://github.com/tomchentw/react-google-maps/compare/v7.3.0...v8.0.0) (2017-09-14)
+
+
+### Bug Fixes
+
+* **package.json:** relax peerDependencies ([#596](https://github.com/tomchentw/react-google-maps/issues/596)) ([6f1c88d](https://github.com/tomchentw/react-google-maps/commit/6f1c88d))
+
+
+### Features
+
+* **addons/InfoBox:** revamp to PureComponent ([95269d2](https://github.com/tomchentw/react-google-maps/commit/95269d2))
+* **addons/MarkerClusterer:** revamp to PureComponent ([13cbef2](https://github.com/tomchentw/react-google-maps/commit/13cbef2))
+* **Circle:** revamp with jscodeshift ([c2c98ab](https://github.com/tomchentw/react-google-maps/commit/c2c98ab))
+* **DirectionsRenderer:** revamp with jscodeshift ([7c5532a](https://github.com/tomchentw/react-google-maps/commit/7c5532a))
+* **drawing/DrawingManager:** revamp with jscodeshift ([01bfb80](https://github.com/tomchentw/react-google-maps/commit/01bfb80))
+* **FusionTablesLayer:** revamp with jscodeshift ([a5865a0](https://github.com/tomchentw/react-google-maps/commit/a5865a0))
+* **GoogleMap:** revamp with jscodeshift ([772f363](https://github.com/tomchentw/react-google-maps/commit/772f363))
+* **index.js:** export `withScriptjs` ([4a1c34e](https://github.com/tomchentw/react-google-maps/commit/4a1c34e))
+* **KmlLayer:** revamp with jscodeshift ([18b8a9f](https://github.com/tomchentw/react-google-maps/commit/18b8a9f))
+* **Marker:** revamp with jscodeshift ([08c5687](https://github.com/tomchentw/react-google-maps/commit/08c5687))
+* **OverlayView:** revamp with jscodeshift ([8c66c14](https://github.com/tomchentw/react-google-maps/commit/8c66c14))
+* **package.json:** add `recompose` to dependencies ([f433a50](https://github.com/tomchentw/react-google-maps/commit/f433a50))
+* **package.json:** remove `create-react-class` from dependencies ([ea41411](https://github.com/tomchentw/react-google-maps/commit/ea41411))
+* **places/SearchBox:** revamp with jscodeshift ([bc41752](https://github.com/tomchentw/react-google-maps/commit/bc41752))
+* **Polygon:** revamp with jscodeshift ([a015b95](https://github.com/tomchentw/react-google-maps/commit/a015b95))
+* **Polyline:** revamp with jscodeshift ([2ff6313](https://github.com/tomchentw/react-google-maps/commit/2ff6313))
+* **Rectangle:** revamp with jscodeshift ([5096882](https://github.com/tomchentw/react-google-maps/commit/5096882))
+* **StreetViewPanorama:** revamp with jscodeshift ([a0e6dd4](https://github.com/tomchentw/react-google-maps/commit/a0e6dd4))
+* **TrafficLayer:** revamp with jscodeshift ([92159bd](https://github.com/tomchentw/react-google-maps/commit/92159bd))
+* **tx:** add `MapChild` transform with `jscodeshift` ([b63d9ee](https://github.com/tomchentw/react-google-maps/commit/b63d9ee))
+* **visualization/HeatmapLayer:** revamp with jscodeshift ([b92a570](https://github.com/tomchentw/react-google-maps/commit/b92a570))
+* **withGoogleMap:** revamp with prettier ([c3de3b3](https://github.com/tomchentw/react-google-maps/commit/c3de3b3))
+* **withScriptjs:** revamp with prettier ([8f3b484](https://github.com/tomchentw/react-google-maps/commit/8f3b484))
+
+
+### BREAKING CHANGES
+
+* **places/SearchBox:** input element can now render directly as the only child
+
+Before:
+
+```js
+<SearchBox
+  inputPlaceholder="Customized your placeholder"
+  inputStyle={{ padding: `0 12px`, fontSize: `14px`, outline: `none` }}
+/>
+```
+
+After:
+
+```js
+<SearchBox>
+  <input
+    type="text"
+    placeholder="Customized your placeholder"
+    style={{
+      padding: `0 12px`,
+      fontSize: `14px`,
+      outline: `none`,
+    }}
+  />
+</SearchBox>
+```
+
+
+
+<a name="7.3.0"></a>
+# [7.3.0](https://github.com/tomchentw/react-google-maps/compare/v7.2.0...v7.3.0) (2017-09-06)
+
+
+### Bug Fixes
+
+* **enhanceElement:** handle undefined callbacks gracefully ([e463df3](https://github.com/tomchentw/react-google-maps/commit/e463df3))
+* **fusiontable:** add query param ([b0c637f](https://github.com/tomchentw/react-google-maps/commit/b0c637f))
+* **withScriptsJs:** Fix comment clarity ([74b0ba3](https://github.com/tomchentw/react-google-maps/commit/74b0ba3))
+
+
+### Features
+
+* **marker:** add custom label support ([8e06dd5](https://github.com/tomchentw/react-google-maps/commit/8e06dd5))
+
+
+
+<a name="7.2.0"></a>
+# [7.2.0](https://github.com/tomchentw/react-google-maps/compare/v7.1.0...v7.2.0) (2017-07-18)
+
+
+### Features
+
+* **MarkerClusterer:** add batchSize option ([#544](https://github.com/tomchentw/react-google-maps/issues/544)) ([ff6b14b](https://github.com/tomchentw/react-google-maps/commit/ff6b14b))
+
+
+
+<a name="7.1.0"></a>
+# [7.1.0](https://github.com/tomchentw/react-google-maps/compare/v7.0.0...v7.1.0) (2017-07-06)
+
+
+### Features
+
+* **StreetViewPanorama:** add OverlayView to example ([7bd8c76](https://github.com/tomchentw/react-google-maps/commit/7bd8c76))
+* **StreetViewPanorama:** add StreetViewPanorama component ([e75c936](https://github.com/tomchentw/react-google-maps/commit/e75c936))
+* **StreetViewPanorama:** fix deprecation warnings ([d80cfe5](https://github.com/tomchentw/react-google-maps/commit/d80cfe5))
+* **StreetViewPanorama:** fix OverlayViewHelper ([ab513a5](https://github.com/tomchentw/react-google-maps/commit/ab513a5))
+* **StreetViewPanorama:** Fix standalone rendering and rename prop ([39373d9](https://github.com/tomchentw/react-google-maps/commit/39373d9))
+* **StreetViewPanorama:** remove log, cosmetics ([4127f7e](https://github.com/tomchentw/react-google-maps/commit/4127f7e))
+* **StreetViewPanorama:** update context for children ([eb86d7e](https://github.com/tomchentw/react-google-maps/commit/eb86d7e))
+
+
+
+<a name="7.0.0"></a>
+# [7.0.0](https://github.com/tomchentw/react-google-maps/compare/v6.3.0...v7.0.0) (2017-04-21)
+
+
+### Code Refactoring
+
+* **index.js:** remove HeatmapLayer export ([a05e5cb](https://github.com/tomchentw/react-google-maps/commit/a05e5cb))
+
+
+### Features
+
+* **package.json:** add "create-react-class" and "prop-types" to dependencies ([cb2cbff](https://github.com/tomchentw/react-google-maps/commit/cb2cbff))
+* migrate to "create-react-class" package ([d54cc95](https://github.com/tomchentw/react-google-maps/commit/d54cc95)), closes [#463](https://github.com/tomchentw/react-google-maps/issues/463)
+* migrate to "prop-types" package ([129b6e2](https://github.com/tomchentw/react-google-maps/commit/129b6e2)), closes [#463](https://github.com/tomchentw/react-google-maps/issues/463)
+* migrate to implicit default import for React ([f094f1b](https://github.com/tomchentw/react-google-maps/commit/f094f1b))
+* **package.json:** upgrade to ^15.5.4 of react / react-dom in peerDependencies ([d62059e](https://github.com/tomchentw/react-google-maps/commit/d62059e))
+
+
+### BREAKING CHANGES
+
+* **index.js:** remove top-level HeatmapLayer export
+
+Before:
+
+```js
+import { HeatmapLayer } from "react-google-maps"
+```
+
+After:
+
+```js
+import HeatmapLayer from "react-google-maps/lib/visualization/HeatmapLayer"
+```
+* **package.json:** upgrade to ^15.5.4 of react / react-dom in peerDependencies
+
+For react < 15.5.0, use react-google-maps < 7.0.0 instead.
+
+
+
+<a name="6.3.0"></a>
+# [6.3.0](https://github.com/tomchentw/react-google-maps/compare/v6.2.0...v6.3.0) (2017-04-20)
+
+
+### Bug Fixes
+
+* **InfoWindow:** long content jank issue ([54ffccc](https://github.com/tomchentw/react-google-maps/commit/54ffccc)), closes [#449](https://github.com/tomchentw/react-google-maps/issues/449) [#444](https://github.com/tomchentw/react-google-maps/issues/444) [#408](https://github.com/tomchentw/react-google-maps/issues/408)
+
+
+### Features
+
+* **Marker:** prevent Marker from redrawing under clusters ([7849f28](https://github.com/tomchentw/react-google-maps/commit/7849f28)), closes [#397](https://github.com/tomchentw/react-google-maps/issues/397)
+
+
+
+<a name="6.2.0"></a>
+# [6.2.0](https://github.com/tomchentw/react-google-maps/compare/v6.1.0...v6.2.0) (2017-04-20)
+
+
+### Features
+
+* **FusionTablesLayer:** add component ([1d8e478](https://github.com/tomchentw/react-google-maps/commit/1d8e478)), closes [#370](https://github.com/tomchentw/react-google-maps/issues/370)
+* **KmlLayer:** add options to props ([2968efc](https://github.com/tomchentw/react-google-maps/commit/2968efc)), closes [#428](https://github.com/tomchentw/react-google-maps/issues/428) [#406](https://github.com/tomchentw/react-google-maps/issues/406)
+* **TrafficLayer:** add component ([d419fc9](https://github.com/tomchentw/react-google-maps/commit/d419fc9)), closes [#417](https://github.com/tomchentw/react-google-maps/issues/417)
+
+
+
+<a name="6.1.0"></a>
+# [6.1.0](https://github.com/tomchentw/react-google-maps/compare/v6.0.3...v6.1.0) (2017-04-20)
+
+
+### Features
+
+* **visualization/HeatmapLayer:** move to visualization namespace ([20ea7c3](https://github.com/tomchentw/react-google-maps/commit/20ea7c3))
+
+
+
+<a name="6.0.3"></a>
+## [6.0.3](https://github.com/tomchentw/react-google-maps/compare/v6.0.2...v6.0.3) (2017-04-20)
+
+
+### Bug Fixes
+
+* **HeatmapLayer:** HeatmapLayer constructor fix ([#376](https://github.com/tomchentw/react-google-maps/issues/376)) ([24b140d](https://github.com/tomchentw/react-google-maps/commit/24b140d))
+
+
+
+<a name="6.0.2"></a>
+## [6.0.2](https://github.com/tomchentw/react-google-maps/compare/v6.0.1...v6.0.2) (2017-04-20)
+
+
+### Bug Fixes
+
+* **addons/InfoBox:** Unmounting an InfoBox should remove all listeners. ([#412](https://github.com/tomchentw/react-google-maps/issues/412)) ([ad4f0ee](https://github.com/tomchentw/react-google-maps/commit/ad4f0ee))
+
+
+
+<a name="6.0.1"></a>
+## [6.0.1](https://github.com/tomchentw/react-google-maps/compare/v6.0.0...v6.0.1) (2016-10-14)
+
+
+### Bug Fixes
+
+* **addons/InfoBox:** allow children to receive React's context ([bed461c](https://github.com/tomchentw/react-google-maps/commit/bed461c)), closes [#258](https://github.com/tomchentw/react-google-maps/issues/258)
+* **addons/InfoBox:** allow children to receive React's context ([5748a96](https://github.com/tomchentw/react-google-maps/commit/5748a96))
+* **InfoWindow:** allow children to receive React's context ([ca73c85](https://github.com/tomchentw/react-google-maps/commit/ca73c85))
+* **package.json:** devDependencies of eslint-config-react-app ([e8e3eed](https://github.com/tomchentw/react-google-maps/commit/e8e3eed))
+
+
+
+<a name="6.0.0"></a>
+# [6.0.0](https://github.com/tomchentw/react-google-maps/compare/v5.1.1...v6.0.0) (2016-10-04)
+
+
+### Code Refactoring
+
+* **addons/InfoBox:** rewrite with enhanceElement and cleaner interfaces ([06f2e9b](https://github.com/tomchentw/react-google-maps/commit/06f2e9b))
+* **addons/MarkerClusterer:** rewrite with enhanceElement and cleaner interfaces ([f1032f4](https://github.com/tomchentw/react-google-maps/commit/f1032f4))
+* **Circle:** rewrite with enhanceElement and cleaner interfaces ([da0ebc2](https://github.com/tomchentw/react-google-maps/commit/da0ebc2))
+* **drawing/DrawingManager:** rewrite with enhanceElement and cleaner interfaces ([1b6a937](https://github.com/tomchentw/react-google-maps/commit/1b6a937))
+* **DrawingManager:** move to drawing/DrawingManager ([3226508](https://github.com/tomchentw/react-google-maps/commit/3226508))
+* **GoogleMap:** rewrite with enhanceElement and cleaner interfaces ([4b22e42](https://github.com/tomchentw/react-google-maps/commit/4b22e42))
+* **InfoWindow:** rewrite with enhanceElement and cleaner interfaces ([fc1c25c](https://github.com/tomchentw/react-google-maps/commit/fc1c25c))
+* **KmlLayer:** rewrite with enhanceElement and cleaner interfaces ([2479b88](https://github.com/tomchentw/react-google-maps/commit/2479b88))
+* **Marker:** rewrite with enhanceElement and cleaner interfaces ([c06aff2](https://github.com/tomchentw/react-google-maps/commit/c06aff2))
+* **OverlayView:** rewrite with enhanceElement and cleaner interfaces ([7d28f2f](https://github.com/tomchentw/react-google-maps/commit/7d28f2f))
+* **places/SearchBox:** rewrite with enhanceElement and cleaner interfaces ([bc97f61](https://github.com/tomchentw/react-google-maps/commit/bc97f61))
+* **Polygon:** rewrite with enhanceElement and cleaner interfaces ([1e20d70](https://github.com/tomchentw/react-google-maps/commit/1e20d70))
+* **Polyline:** rewrite with enhanceElement and cleaner interfaces ([5603319](https://github.com/tomchentw/react-google-maps/commit/5603319))
+* **Rectangle:** rewrite with enhanceElement and cleaner interfaces ([ea39062](https://github.com/tomchentw/react-google-maps/commit/ea39062))
+* **SearchBox:** move to places/SearchBox ([cf5a1cb](https://github.com/tomchentw/react-google-maps/commit/cf5a1cb))
+
+
+### Features
+
+* **async/withScriptjs:** provide HOC for loading `googleMapURL` with `scriptjs` ([14d9273](https://github.com/tomchentw/react-google-maps/commit/14d9273))
+* **enhanceElement:** utility for generating Google Maps Components ([2656569](https://github.com/tomchentw/react-google-maps/commit/2656569))
+* **package.json:** add "react-display-name" to dependencies ([2df62c7](https://github.com/tomchentw/react-google-maps/commit/2df62c7))
+* **withGoogleMap:** provide HOC for initialize `google.maps.Map` instance ([f61724c](https://github.com/tomchentw/react-google-maps/commit/f61724c))
+
+
+### BREAKING CHANGES
+
+* addons/InfoBox: Naming convention for event handlers has tweaked to follow React's convention.
+
+Before:
+
+```js
+<InfoBox
+  onCloseclick={_.noop}
+  onDomready={_.noop}
+  onZindexChanged={_.noop}
+/>
+```
+
+After:
+
+```js
+<InfoBox
+  onCloseClick={_.noop}
+  onDomReady={_.noop}
+  onZIndexChanged={_.noop}
+/>
+```
+* withGoogleMap: Wrap all `react-google-maps` components inside `withGoogleMap` HOC.
+
+Before:
+
+```js
+// v5.0.0
+<GoogleMapLoader
+  containerElement={
+    <div
+      {...this.props}
+      style={{
+        height: "100%",
+      }}
+    />
+  }
+  googleMapElement={
+    <GoogleMap
+      ref={(map) => console.log(map)}
+      defaultZoom={3}
+      defaultCenter={{lat: -25.363882, lng: 131.044922}}
+      onClick={::this.handleMapClick}>
+      {this.state.markers.map((marker, index) => {
+        return (
+          <Marker
+            {...marker}
+            onRightclick={this.handleMarkerRightclick.bind(this, index)} />
+        );
+      })}
+    </GoogleMap>
+  }
+/>
+// or v4.0.0
+<GoogleMap containerProps={{
+    ...this.props,
+    style: {
+      height: "100%",
+    },
+  }}
+  ref="map"
+  defaultZoom={3}
+  defaultCenter={{lat: -25.363882, lng: 131.044922}}
+  onClick={::this.handleMapClick}>
+  {this.state.markers.map((marker, index) => {
+    return (
+      <Marker
+        {...marker}
+        onRightclick={this.handleMarkerRightclick.bind(this, index)} />
+    );
+  })}
+</GoogleMap>
+```
+
+After:
+
+```js
+// Wrap all `react-google-maps` components with `withGoogleMap` HOC
+// and name it GettingStartedGoogleMap
+const GettingStartedGoogleMap = withGoogleMap(props => (
+  <GoogleMap
+    ref={props.onMapLoad}
+    defaultZoom={3}
+    defaultCenter={{ lat: -25.363882, lng: 131.044922 }}
+    onClick={props.onMapClick}
+  >
+    {props.markers.map((marker, index) => (
+      <Marker
+        {...marker}
+        onRightClick={() => props.onMarkerRightClick(index)}
+      />
+    ))}
+  </GoogleMap>
+));
+// Then, render it:
+render(
+  <GettingStartedGoogleMap
+    containerElement={
+      <div style={{ height: `100%` }} />
+    }
+    mapElement={
+      <div style={{ height: `100%` }} />
+    }
+    onMapLoad={_.noop}
+    onMapClick={_.noop}
+    markers={markers}
+    onMarkerRightClick={_.noop}
+  />,
+  document.getElementById('root')
+);
+```
+* places/SearchBox: Input props are now under `inputProps`.
+
+This will get passed in directly into the underlying `<input>` component. You can also override it with `inputStyle`, `inputClassName` and `inputPlaceholder`.
+
+Before:
+
+```js
+<SearchBox
+  placeholder="Customized your placeholder"
+  style={INPUT_STYLE}
+/>
+```
+
+After:
+
+```js
+<SearchBox
+  inputPlaceholder="Customized your placeholder"
+  inputStyle={INPUT_STYLE}
+/>
+```
+* SearchBox: move SearchBox to places/SearchBox
+* drawing/DrawingManager: Naming convention for event handlers has tweaked to follow React's convention.
+
+Before:
+
+```js
+<DrawingManager
+  onCirclecomplete={_.noop}
+  onOverlaycomplete={_.noop}
+/>
+```
+
+After:
+
+```js
+<DrawingManager
+  onCircleComplete={_.noop}
+  onOverlayComplete={_.noop}
+/>
+```
+* DrawingManager: move DrawingManager to drawing/DrawingManager
+* OverlayView: `OverlayView` can no longer be rendered under `MarkerClusterer`
+* InfoWindow: Naming convention for event handlers has tweaked to follow React's convention.
+
+Before:
+
+```js
+<InfoWindow
+  onCloseclick={_.noop}
+  onDomready={_.noop}
+  onZindexChanged={_.noop}
+/>
+```
+
+After:
+
+```js
+<InfoWindow
+  onCloseClick={_.noop}
+  onDomReady={_.noop}
+  onZIndexChanged={_.noop}
+/>
+```
+* addons/MarkerClusterer: Naming convention for event handlers has tweaked to follow React's convention.
+
+Before:
+
+```js
+<MarkerClusterer
+  onClusteringbegin={_.noop}
+  onMouseout={_.noop}
+/>
+```
+
+After:
+
+```js
+<MarkerClusterer
+  onClusteringBegin={_.noop}
+  onMouseOut={_.noop}
+/>
+```
+* Circle: Naming convention for event handlers has tweaked to follow React's convention.
+
+Before:
+
+```js
+<Circle
+  onClick={_.noop}
+  onRightclick={_.noop}
+  onDragstart={_.noop}
+/>
+```
+
+After:
+
+```js
+<Circle
+  onClick={_.noop}
+  onRightClick={_.noop}
+  onDragStart={_.noop}
+/>
+```
+* Polygon: Naming convention for event handlers has tweaked to follow React's convention.
+
+Before:
+
+```js
+<Polygon
+  onClick={_.noop}
+  onRightclick={_.noop}
+  onDragstart={_.noop}
+/>
+```
+
+After:
+
+```js
+<Polygon
+  onClick={_.noop}
+  onRightClick={_.noop}
+  onDragStart={_.noop}
+/>
+```
+* Polyline: Naming convention for event handlers has tweaked to follow React's convention.
+
+Before:
+
+```js
+<Polyline
+  onClick={_.noop}
+  onRightclick={_.noop}
+  onDragstart={_.noop}
+/>
+```
+
+After:
+
+```js
+<Polyline
+  onClick={_.noop}
+  onRightClick={_.noop}
+  onDragStart={_.noop}
+/>
+```
+* Rectangle: Naming convention for event handlers has tweaked to follow React's convention.
+
+Before:
+
+```js
+<Rectangle
+  onClick={_.noop}
+  onRightclick={_.noop}
+  onDragstart={_.noop}
+/>
+```
+
+After:
+
+```js
+<Rectangle
+  onClick={_.noop}
+  onRightClick={_.noop}
+  onDragStart={_.noop}
+/>
+```
+* Marker: Naming convention for event handlers has tweaked to follow React's convention.
+
+Before:
+
+```js
+<Marker
+  onClick={_.noop}
+  onRightclick={_.noop}
+  onDragstart={_.noop}
+/>
+```
+
+After:
+
+```js
+<Marker
+  onClick={_.noop}
+  onRightClick={_.noop}
+  onDragStart={_.noop}
+/>
+```
+* GoogleMap: Naming convention for event handlers has tweaked to follow React's convention.
+
+Before:
+
+```js
+<GoogleMap
+  onClick={_.noop}
+  onRightclick={_.noop}
+  onDragstart={_.noop}
+/>
+```
+
+After:
+
+```js
+<GoogleMap
+  onClick={_.noop}
+  onRightClick={_.noop}
+  onDragStart={_.noop}
+/>
+```
+* async/withScriptjs: Apply `withScriptjs` HOC before `withGoogleMaps` HOC.
+
+Before:
+
+```js
+<ScriptjsLoader
+  hostname={"maps.googleapis.com"}
+  pathname={"/maps/api/js"}
+  query={{v: `3.${ AsyncGettingStarted.version }`, libraries: "geometry,drawing,places"}}
+  loadingElement={
+    <div {...this.props} style={{ height: "100%" }}>
+      <FaSpinner />
+    </div>
+  }
+  containerElement={
+    <div {...this.props} style={{ height: "100%" }} />
+  }
+  googleMapElement={
+    <GoogleMap
+      ref={googleMap => {
+        googleMap && console.log(`Zoom: ${ googleMap.getZoom() }`);
+      }}
+      defaultZoom={3}
+      defaultCenter={{lat: -25.363882, lng: 131.044922}}
+      onClick={::this.handleMapClick}
+    >
+      <Marker
+        {...this.state.marker}
+        onRightclick={this.handleMarkerRightclick}
+      />
+    </GoogleMap>
+  }
+/>
+```
+
+After:
+
+```js
+// Wrap all `react-google-maps` components with `withGoogleMap` HOC
+// then wraps it into `withScriptjs` HOC
+// It loads Google Maps JavaScript API v3 for you asynchronously.
+// Name the component AsyncGettingStartedExampleGoogleMap
+const AsyncGettingStartedExampleGoogleMap = withScriptjs(
+  withGoogleMap(
+    props => (
+    <GoogleMap
+      ref={props.onMapLoad}
+      defaultZoom={3}
+      defaultCenter={{ lat: -25.363882, lng: 131.044922 }}
+      onClick={props.onMapClick}
+    >
+      {props.markers.map(marker => (
+        <Marker
+          {...marker}
+          onRightClick={() => props.onMarkerRightClick(marker)}
+        />
+      ))}
+    </GoogleMap>
+  )
+);
+// Then, render it:
+render(
+  <GettingStartedGoogleMap
+    googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp"
+    loadingElement={
+      <div style={{ height: `100%` }}>
+        <FaSpinner
+          style={{
+            display: `block`,
+            width: `80px`,
+            height: `80px`,
+            margin: `150px auto`,
+            animation: `fa-spin 2s infinite linear`,
+          }}
+        />
+      </div>
+    }
+    containerElement={
+      <div style={{ height: `100%` }} />
+    }
+    mapElement={
+      <div style={{ height: `100%` }} />
+    }
+    onMapLoad={_.noop}
+    onMapClick={_.noop}
+    markers={markers}
+    onMarkerRightClick={_.noop}
+  />,
+  document.getElementById('root')
+);
+```
+* KmlLayer: Naming convention for event handlers has tweaked to follow React's convention.
+
+Before:
+
+```js
+<KmlLayer
+  onClick={_.noop}
+  onDefaultviewportChanged={_.noop}
+  onStatusChanged={_.noop}
+/>
+```
+
+After:
+
+```js
+<KmlLayer
+  onClick={_.noop}
+  onDefaultViewportChanged={_.noop}
+  onStatusChanged={_.noop}
+/>
+```
+
+
+
+<a name="5.1.1"></a>
+## [5.1.1](https://github.com/tomchentw/react-google-maps/compare/v5.1.0...v5.1.1) (2016-10-04)
+
+
+### Bug Fixes
+
+* **OverlayView:** fixed bug in OverlayView when nested in MarkerClusterer ([#302](https://github.com/tomchentw/react-google-maps/issues/302)) ([1c5e933](https://github.com/tomchentw/react-google-maps/commit/1c5e933)), closes [#301](https://github.com/tomchentw/react-google-maps/issues/301)
+* **ScriptjsLoader:** Fix setState warning ([#307](https://github.com/tomchentw/react-google-maps/issues/307)) ([999fd89](https://github.com/tomchentw/react-google-maps/commit/999fd89))
+
+
+
+<a name="5.1.0"></a>
+# [5.1.0](https://github.com/tomchentw/react-google-maps/compare/v5.0.0...v5.1.0) (2016-09-30)
+
+
+### Features
+
+* **HeatmapLayer:** add HeatmapLayer component ([#248](https://github.com/tomchentw/react-google-maps/issues/248)) ([2863cdd](https://github.com/tomchentw/react-google-maps/commit/2863cdd))
+
+
+
+<a name="5.0.0"></a>
+# [5.0.0](https://github.com/tomchentw/react-google-maps/compare/v4.11.0...v5.0.0) (2016-08-04)
+
+
+### Bug Fixes
+
+* **src:** eslint errors ([f2b242a](https://github.com/tomchentw/react-google-maps/commit/f2b242a))
+
+
+### Features
+
+* **.babelrc:** add transform-runtime and lodash to plugins ([5db33f9](https://github.com/tomchentw/react-google-maps/commit/5db33f9))
+* **GoogleMap:** remove deprecated props and behaviour ([cf5b8f1](https://github.com/tomchentw/react-google-maps/commit/cf5b8f1))
+* **GoogleMapLoader:** switch to new behaviour ([7e40269](https://github.com/tomchentw/react-google-maps/commit/7e40269))
+* **package.json:** add babel-runtime and lodash to dependencies ([5e37d3c](https://github.com/tomchentw/react-google-maps/commit/5e37d3c))
+* **package.json:** upgrade devDependencies ([47a400c](https://github.com/tomchentw/react-google-maps/commit/47a400c))
+* **src:** switch to use lodash directly ([304f465](https://github.com/tomchentw/react-google-maps/commit/304f465))
+
+
+### Performance Improvements
+
+* **src:** switch mapHolderRef from props to context ([c2d265c](https://github.com/tomchentw/react-google-maps/commit/c2d265c)), closes [#135](https://github.com/tomchentw/react-google-maps/issues/135) [#210](https://github.com/tomchentw/react-google-maps/issues/210) [#216](https://github.com/tomchentw/react-google-maps/issues/216)
+
+
+### BREAKING CHANGES
+
+* GoogleMap: You need to use GoogleMapLoader with props.googleMapElement={<GoogleMap />} now.
+
+Before:
+
+```js
+<GoogleMap containerProps={{
+    ...this.props,
+    style: {
+      height: "100%",
+    },
+  }}
+  ref="map"
+  defaultZoom={3}
+  defaultCenter={{lat: -25.363882, lng: 131.044922}}
+  onClick={::this.handleMapClick}>
+  {this.state.markers.map((marker, index) => {
+    return (
+      <Marker
+        {...marker}
+        onRightclick={this.handleMarkerRightclick.bind(this, index)} />
+    );
+  })}
+</GoogleMap>
+```
+
+After:
+
+```js
+<GoogleMapLoader
+  containerElement={
+    <div
+      {...this.props}
+      style={{
+        height: "100%",
+      }}
+    />
+  }
+  googleMapElement={
+    <GoogleMap
+      ref={(map) => console.log(map)}
+      defaultZoom={3}
+      defaultCenter={{lat: -25.363882, lng: 131.044922}}
+      onClick={::this.handleMapClick}>
+      {this.state.markers.map((marker, index) => {
+        return (
+          <Marker
+            {...marker}
+            onRightclick={this.handleMarkerRightclick.bind(this, index)} />
+        );
+      })}
+    </GoogleMap>
+  }
+/>
+```
+* src: If you're just using the library and didn't make custom components before, feel free to ignore this implementation changes.
+
+Now, mapHolderRef for each component are now passed in via context. This doesn't affect all components interface in general. But if you do custom components before and relies on the implementation of react-google-maps, you should be aware of this and make some changes.
+
+
+
+<a name="4.11.0"></a>
+# [4.11.0](https://github.com/tomchentw/react-google-maps/compare/v4.10.3...v4.11.0) (2016-05-29)
+
+
+### Features
+
+* **OverlayView:** allow rendered as children of MarkerCluster ([435961a](https://github.com/tomchentw/react-google-maps/commit/435961a)), closes [#187](https://github.com/tomchentw/react-google-maps/issues/187)
+
+
+
+<a name="4.10.3"></a>
+## [4.10.3](https://github.com/tomchentw/react-google-maps/compare/v4.10.2...v4.10.3) (2016-05-29)
+
+
+### Bug Fixes
+
+* **GoogleMapLoader:** handle unmount ref case ([334c5c9](https://github.com/tomchentw/react-google-maps/commit/334c5c9))
+
+
+
+<a name="4.10.2"></a>
+## [4.10.2](https://github.com/tomchentw/react-google-maps/compare/v4.10.1...v4.10.2) (2016-05-29)
+
+
+### Features
+
+* **package.json:** upgrade to "marker-clusterer-plus@^2.1.4" ([c1d322a](https://github.com/tomchentw/react-google-maps/commit/c1d322a))
+
+
+
+<a name="4.10.1"></a>
+## [4.10.1](https://github.com/tomchentw/react-google-maps/compare/v4.10.0...v4.10.1) (2016-04-27)
+
+
+### Bug Fixes
+
+* **package.json:** update to "react-prop-types-element-of-type@^2.1.0" ([0f27ed3](https://github.com/tomchentw/react-google-maps/commit/0f27ed3))
+
+
+
+<a name="4.10.0"></a>
+# [4.10.0](https://github.com/tomchentw/react-google-maps/compare/v4.9.1...v4.10.0) (2016-04-26)
+
+
+### Features
+
+* **package.json:** update to react@^15.0.0 ([4a85cf6](https://github.com/tomchentw/react-google-maps/commit/4a85cf6)), closes [#243](https://github.com/tomchentw/react-google-maps/issues/243)
+
+
+
 <a name="4.9.1"></a>
 ## [4.9.1](https://github.com/tomchentw/react-google-maps/compare/v4.9.0...v4.9.1) (2016-02-21)
 
@@ -772,4 +1935,3 @@ But sometimes, we may want the marker's position changed according to current st
 * **Polygon:** add component and client example ([556b9be9](https://github.com/tomchentw/react-google-maps/commit/556b9be93542a796b5ca447b90d717a193f8d618))
 * **Polyline:** component with example ([d0b802bb](https://github.com/tomchentw/react-google-maps/commit/d0b802bbf108a73554be67b3f81f1cb0f149f557))
 * **index:** create common child components by factory ([43b791d2](https://github.com/tomchentw/react-google-maps/commit/43b791d2610fa86083832b8579f25703a01f0ad7))
-

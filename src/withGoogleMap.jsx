@@ -61,7 +61,14 @@ export function withGoogleMap(BaseComponent) {
     }
 
     render() {
-      const { containerElement, mapElement, ...restProps } = this.props
+      const {
+        containerElement,
+        mapElement,
+        childRef,
+        ...restProps
+      } = this.props
+
+      const realChildRef = childRef || function(element) {}
 
       const { map } = this.state
 
@@ -72,7 +79,7 @@ export function withGoogleMap(BaseComponent) {
           React.cloneElement(mapElement, {
             ref: this.handleComponentMount,
           }),
-          <div>{factory(restProps)}</div>
+          <div>{factory({ ref: realChildRef, ...restProps })}</div>
         )
       } else {
         return React.cloneElement(
